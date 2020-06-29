@@ -1,0 +1,122 @@
+/*-------------------------------------CONTANTO--------------------------*/
+
+
+.consulta {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+	
+}
+
+.columconsulta {
+	
+	width: calc(100%);
+	text-align: left;
+	margin-top: 3em;
+	margin-bottom: 2em;
+    box-sizing: border-box;
+}
+.columconsulta a{
+    text-decoration: none;
+	color: black; 
+	padding-bottom: 1em;
+	padding-top: 1em;
+	
+}	
+.columconsulta a:hover {
+	
+	text-decoration: underline;
+	color: #065FA9;
+	
+}
+
+.redes1 {
+	
+	margin-right: 0.5em;
+	font-size: 2em;
+
+	
+}
+
+
+
+.columconsulta h2{
+	
+	text-align: center;
+	color: #FFF;
+	font-size: 1.2em;
+	margin-bottom: 1.2em;
+	background-color: #065FA9;
+	display: block;
+	padding: 0.4em;
+	border-radius: 4px;
+}
+
+.columconsulta p {
+	
+	padding-bottom: 0.5em;
+	
+}
+
+
+
+input#nombreapellido , #mail, #tel, #consulta1 {
+	
+	width: 100%;	
+	
+}
+
+.columconsulta input, textarea {
+	
+	margin-bottom: 0.8em; 
+	margin-top: 0.8em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	border: 1px solid;
+	border-color: #CCC;
+	border-radius: 5px;
+}
+
+input#enviarconsulta {
+	
+	background-color: #065FA9;
+	color: #FFF;
+	border: 0;
+	padding: 12px;
+	cursor: pointer;
+	font-size: 1em;
+	float: right;
+	
+}
+
+input#enviarconsulta:hover {
+	
+	background-color: #172940;
+	
+}
+
+.ubicacion iframe {
+	
+	width: 100%;
+	height: 400px;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.error {
+
+	color: rgb(255, 0, 0);
+}
+
+@media screen and (min-width:47em){
+
+	.columconsulta {
+	
+		width: calc(50% - 5em);
+	}
+
+}
+
+

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Listado de Enfermedades</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/enfermedades.css">  
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="js/jquery.min.js"></script>
+	<script src="js/funciones.js"></script>
+	
+</head>
+
+<body>
+
+	<header>
+		
+		<div class="buscador">
+		
+			<div class="itembuscador1">
+				<p class="logo"><i class="fas fa-atom"></i></p>	
+			</div>
+			
+			<div class="itembuscador2">
+		
+				<form action="#" method="get" enctype= "application/x-www-form-urlencoded">
+		
+				<datalist id=busqueda>
+					<option value="Coronavirus"></option>
+					<option value="Gripe"></option>
+					<option value="VIH"></option>
+					<option value="Sarampion"></option>
+					<option value="Resfrio"></option>
+					<option value="Dengue"></option>
+					<option value="Twitter"></option>
+					<option value="Instagram"></option>
+					<option value="Facebook"></option>
+				</datalist>
+				<input type="text" name="busqueda" list="busqueda" id="buscador" >
+		
+				<button type="submit" id="botonlupa" >
+					<p><i class="fas fa-search"></i></p>
+				</button>
+		
+				</form>
+			</div>
+		
+		</div>
+	
+		
+	<nav class="menu" id="menu">
+ 
+    	<ul>
+           <li><a href="index.html">HOME</a></li>
+           <li><a href="enfermedades.html" class="activo" >ENFERMEDADES</a></li>
+           <li><a href="vacunas.html">VACUNAC&Iacute;ON</a></li>
+           <li><a href="hospitales.html">HOSPITALES</a></li>
+           <li><a href="contacto.html" >CONTACTO</a></li>
+    	</ul>
+    </nav>
+		
+	<a class="desplegable"></a>
+	
+	</header>
+	
+    <main class="marginmain2">
+        <section>
+            <div> 
+                  <h1> ENFERMEDADES</h1>
+            </div>
+            
+        
+            <article class="centrarbuscadorenfermedades">
+                <form action="#" method="get" enctype= "application/x-www-form-urlencoded">
+                    
+                    <datalist id=busqueda2>
+					<option value="Coronavirus"></option>
+					<option value="Gripe"></option>
+					<option value="VIH"></option>
+					<option value="Sarampion"></option>
+					<option value="Resfrio"></option>
+					<option value="Dengue"></option>
+				</datalist>
+				
+				<input type="text" name="busqueda2" list="busqueda2" id="buscador2">
+		
+					<button type="submit" id="botonlupa2">
+					<p><i class="fa fa-search"></i></p>
+				</button>
+                    
+                </form>
+            </article>
+        </section>
+        
+       
+           <section>
+           
+           <article  class="listadoenfermedades">
+              <div class="fotoylista2" >
+                     <img src="img/coronavirusss.jpg" alt="coronavirus" class="fotosenfermedades">
+              </div>
+               <div class="fotoylista">
+                     <h3>COVID 19</h3>
+              <p>Los coronavirus son una familia de virus que pueden causar enfermedades como el resfriado común, el síndrome respiratorio agudo grave (SARS, por sus siglas en inglés), y el síndrome respiratorio de Oriente Medio (MERS, por sus siglas en inglés). En 2019 se identificó un nuevo coronavirus como la causa de un brote de enfermedades que se originó en China.</p> <br>
+              <a href="covid.html" target="_blank" class="verdetalle">ver detalle</a>
+               </div>
+              </article>
+            
+            <article class="listadoenfermedades">
+               <div class="fotoylista2">
+               <img src="img/gripe.jpg" alt="gripe"  class="fotosenfermedades"></div> 
+                <div class="fotoylista"><h3>GRIPE</h3>
+                <p>La gripe afecta a los pulmones, la nariz y la garganta. Los niños pequeños, los adultos de edad avanzada, las mujeres embarazadas y las personas con enfermedades crónicas o un sistema inmunológico débil corren mayor riesgo.
+                Los síntomas incluyen fiebre, escalofríos, dolores musculares, tos, congestión, secreción nasal, dolor de cabeza y fatiga.
+                La gripe se trata principalmente con descanso y líquidos para que el cuerpo pueda combatir la infección por sí solo. </p>
+                      <a href="https://medlineplus.gov/spanish/flu.html" target="_blank" class="verdetalle">ver detalle</a></div>
+                
+            </article>
+              
+              <article class="listadoenfermedades">
+              
+              <div class="fotoylista2">
+                  <img src="img/vih2.jpg" alt="vih" class="fotosenfermedades"> 
+              </div>
+              <div class="fotoylista">
+                 <h3>VIH</h3>
+                 <p>VIH significa virus de la inmunodeficiencia humana. Éste daña el sistema inmunitario mediante la destrucción de los glóbulos blancos que combaten las infecciones. Esto lo pone en riesgo de contraer infecciones graves y ciertos tipos de cáncer. Sida significa síndrome de inmunodeficiencia adquirida. Es la etapa final de la infección con el VIH. No todas las personas con VIH desarrollan sida.</p>
+                        <a href="https://medlineplus.gov/spanish/hivaids.html" target="_blank" class="verdetalle">ver detalle</a>
+                
+              </div>
+                
+              </article> 
+              
+              <article class="listadoenfermedades">
+                 <div class="fotoylista2">
+                         <img src="img/sarampion.jpg" alt="sarampion" class="fotosenfermedades">
+                 </div>
+                 
+                 <div class="fotoylista">
+                     <h3>SARAMPION</h3>
+                 
+                    <p>Infección viral grave en los niños pequeños, pero de fácil prevención mediante una vacuna. <br>
+                    La enfermedad se propaga rápidamente por el aire mediante pequeñas gotas de saliva al toser o estornudar.
+                    Los síntomas del sarampión no aparecen hasta diez o catorce días después de la exposición. Los síntomas incluyen tos, secreción nasal, inflamación de los ojos, dolor de garganta, fiebre y un sarpullido rojo y con manchas en la piel.</p>
+                        <a href="https://www.mayoclinic.org/es-es/diseases-conditions/measles/symptoms-causes/syc-20374857" target="_blank" class="verdetalle">ver detalle</a> 
+                 </div>
+                  </article>
+              
+              <article class="listadoenfermedades">
+               <div class="fotoylista2">
+                    <img src="img/resfrio.jpg" alt="resfrio" class="fotosenfermedades">
+               </div>
+                <div class="fotoylista">
+                      <h3>RESFRIO</h3>
+                   
+                    <p>Infección viral común de la nariz y la garganta. <br>
+                    A diferencia de la gripe, el resfrío común puede ser ocasionado por diferentes tipos de virus. La afección suele ser inofensiva y los síntomas generalmente desaparecen en el transcurso de dos semanas.</p><br>
+                    <a href="https://medlineplus.gov/spanish/commoncold.html" target="_blank" class="verdetalle">ver detalle</a>
+                </div>
+                
+              </article>
+              
+              <article class="listadoenfermedades">
+                  <div class="fotoylista2">
+                      <img src="img/dengue.jpg" alt="dengue" class="fotosenfermedades">
+                  </div>
+                  <div class="fotoylista">
+                  <H3>DENGUE</H3>
+                  <p>
+                     Enfermedad viral transmitida por los mosquitos y de prevalencia en las áreas tropicales y subtropicales.
+                     Aquellos que se contagian por segunda vez con el virus tienen un riesgo significativamente mayor de desarrollar la enfermedad de manera más grave.
+                     Los síntomas son fiebre alta, sarpullido y dolor en los músculos y las articulaciones. En los casos más graves puede haber hemorragia profusa y un shock, que pueden llevar a la muerte. 
+                  </p>
+                  <a href="https://www.mayoclinic.org/es-es/diseases-conditions/dengue-fever/symptoms-causes/syc-20353078" target="_blank" class="verdetalle">ver detalle</a></div>
+              </article>
+              </section>
+        
+    </main>
+	
+	
+	
+		<footer class="contenedor">
+	
+		<div class="columfooter">
+		
+			<h4>Datos del Grupo:</h4>
+			<p>Facundo Marin - 38.670.221</p>
+			<p>Facundo Vila  - 38.421.520</p>
+		</div>
+		
+		<div class="columfooter">
+		
+			<h4>Menu Inferior:</h4>
+			<p><a href="enfermedades.html">Enfermedades</a> </p>
+			<p><a href="vacunas.html">Vacunas</a> </p>
+			<p><a href="hospitales.html">Hospitales</a> </p>
+			<p><a href="contacto.html">Contacto</a> </p>
+			
+		</div>
+		
+		<div class="columfooter">
+		
+			<h4>Redes Sociales</h4>
+			<a href="https://www.instagram.com/cuidemos.hospital" target="_blank" ><i class="fab fa-instagram"></i></a>
+			<a href="https://www.facebook.com/CuidemosOrg-102730938141411" target="_blank"><i class="fab fa-facebook"></i></a>
+			<a href=""><i class="fab fa-twitter"></i></a>
+			
+		</div>
+		
+	</footer>
+
+	
+</body>
+</html>

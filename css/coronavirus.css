@@ -1,0 +1,352 @@
+/* ---------------CORONAVIRUS------------------------*/
+
+.descripcion {
+	
+	display: block;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	margin-bottom: 2em;
+	
+}
+
+.descripcion img {
+	
+	max-width:100%;
+	border-radius: 15px;
+	
+}
+
+.descolum1 {
+	
+	width: calc(100%);
+	text-align: center;
+	margin-right: 1.3em;
+	margin-top: 2em;
+	
+}
+
+.descolum2 {
+	
+	width: calc(100%);
+	text-align: justify;
+	margin-top: 2em;
+	
+}
+
+.test {
+	
+	display: block;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+	flex: wrap;
+	
+	
+}
+
+.testcolum1 {
+	
+	width: calc(100% - 1em);
+	font-size: 10px;
+	text-align: center;
+	margin-right: 1em;
+	margin-top: 2em;
+	
+
+}
+
+.testcolum1 h3 {
+	
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: left;
+}
+
+.testcolum1 p{
+	
+	text-align: justify;
+	
+}
+
+.testcolum2 {
+	
+	width: calc(100% - 1em);
+	text-align: left;
+	margin-top: 2em;
+    
+}
+
+.pform {
+	
+	padding-bottom: 1em;
+}
+
+.test img {
+	
+	width: 200px;
+
+}
+
+.sintomas {
+	
+	display: block;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex: wrap;
+		
+}
+
+
+
+.sintomastos {
+	
+	text-align: center;
+	margin-top: 2em;
+}
+
+
+.formulario {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex: wrap;
+	
+	
+}
+
+
+
+.formcolum {
+	
+	width: calc(50% - 0em);
+	text-align: left;
+	margin-left:0;
+    
+    
+	
+}
+
+
+.testcolum2 input, select {
+	
+	margin-bottom: 0.8em; 
+	margin-top: 0.8em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	border: 1px solid;
+	border-color: #CCC;
+	border-radius: 5px;
+}
+
+.labelform {
+	
+	display: inline-block;
+	padding-bottom: 0.6em;
+	padding-top: 0.4em;
+
+}
+
+
+	
+input#nombre , #telefono, #localidad {
+	
+	width: 100%;
+	
+}
+
+input#dni , #ciudad, #direccion {
+	
+	width: 90%;
+}
+
+.botonderecha {
+	
+	text-align: end;
+	
+	
+}
+
+input#enviar {
+	
+	background-color: #065FA9;
+	color: #FFF;
+	border: 0;
+	padding: 10px;
+	cursor: pointer;
+	
+}
+
+input#enviar:hover{
+	
+	background-color: #172940;
+	
+}
+
+.oculto{
+	display: none;
+}
+
+
+
+/*-----coronavirus-precaucion-----*/
+
+h3 {
+	
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.precaucion{
+	
+	display: block;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+
+.precaucion img{
+	
+	
+	 max-width: 100%;
+}
+
+.prevencion {
+	
+	
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.hospitalcercano{
+	
+	display: block;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	
+	
+}
+
+
+
+.paroissien {
+	
+	width: calc(100%);
+	text-align: left;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.paroissien h5{
+	
+	font-size: 1em;
+	
+}
+
+.paroissien p{
+	
+	font-size: 0.8em;
+	
+}
+
+.paroissien img{
+	
+	max-width: 100%;
+	height: 180px;
+}
+
+.paroissien iframe{
+	
+	width: 100%;
+	height: 250px;
+}
+
+@media screen and (min-width:47em){
+
+	.precaucion{
+
+		display: flex;
+
+	}
+
+	.prevencion{
+
+		width: calc(50% - 2em);
+	}
+
+	.sintomas{
+
+		display: flex;
+	}
+	.sintomascolum{
+	
+		width: calc(50% - 1em);
+		
+	}
+
+	.hospitalcercano{
+
+		display: flex;
+	}
+
+	.paroissien{
+
+			width: calc(50% - 1em);
+				
+	}
+
+}
+
+@media screen and (min-width:60em){
+	
+	.prevencion{
+
+		width: calc(33% - 2em);
+	}
+
+}
+
+@media screen and (min-width:70em){
+
+	.descripcion{
+
+		display: flex;
+	}
+	.descolum1{
+
+		width: calc(30% - 2em);
+
+	}
+
+	.descolum2{
+
+		width: calc(70% - 1em);
+
+	}
+
+	.test{
+
+		display: flex;
+
+	}
+
+	.testcolum1{
+
+		width: calc(50% - 1em);
+	}
+
+	.testcolum2{
+
+		width: calc(50% - 1em);
+	}
+
+	.prevencion{
+
+		width: calc(25% - 2em);
+	}
+}

@@ -1,0 +1,130 @@
+/*-------------------------------------LISTADO DE ENFERMEDADES--------------------------*/
+
+.listadoenfermedades{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: flex-start;
+
+}
+.fotoylista{
+    
+    width:  calc(100% - 2em);
+	text-align:justify;
+	margin-bottom: 2em;
+    
+}
+
+.fotoylista h3{
+    
+	text-align: left;
+	margin-top: 1.5em;	    
+    
+}
+
+.fotoylista2{
+    width: calc(100% - 2em);
+    margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	
+   
+}
+
+
+.fotosenfermedades{
+    max-width: 100%;
+	border-radius: 10px;
+    text-align: center;
+   
+}
+
+
+.fotoylista a{
+    
+    display: inline-block;
+    background-color: #065FA9;
+	color: #FFF;
+	
+	padding: 7px;
+	cursor: pointer;
+	font-size: 0.9em;
+     border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+   
+}
+
+.verdetalle{
+	float: right;
+}
+
+.fotoylista a:hover{
+	background-color: #172940;
+}
+
+ button#botonlupa2 {
+	
+	width:35px;
+	height: 34px;
+	color:#FFF;
+	font-size: 1em;
+	background-color: #065FA9;
+   
+	/*cursor: pointer; para que aparezca la manito*/ 
+	    border-radius: 18px 18px 18px 18px;
+    -moz-border-radius:  18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    border: 0px solid #000000;
+}
+
+input#buscador2 {
+	width: 60%;
+	height: 30px;
+   
+ 
+} 
+/*
+input#buscador2 {
+	width: 700px;
+	height: 30px;
+    margin-left: 20em;
+ 
+} */
+
+.marginmain2 {
+
+	max-width: 80%;
+	margin: auto;
+    box-sizing: border-box;
+    padding-top: 2em;
+    
+}
+
+.centrarbuscadorenfermedades {
+	
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+
+@media screen and (min-width:70em){
+
+
+	.fotoylista2{
+		width: calc(30% - 2em);
+	}
+
+	.fotoylista{
+
+		width: calc(70% - 2em);
+		
+	}
+
+	
+
+}

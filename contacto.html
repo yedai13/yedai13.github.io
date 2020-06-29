@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/contacto.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<script src="js/validacion.js" ></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/funciones.js"></script>
+	
+</head>
+
+<body>
+
+	<header>
+		
+		<div class="buscador">
+		
+			<div class="itembuscador1">
+				<p class="logo"><i class="fas fa-atom"></i></p>	
+			</div>
+			
+			<div class="itembuscador2">
+		
+				<form action="#" method="get" enctype= "application/x-www-form-urlencoded">
+		
+				<datalist id=busqueda>
+					<option value="Coronavirus"></option>
+					<option value="Gripe"></option>
+					<option value="VIH"></option>
+					<option value="Sarampion"></option>
+					<option value="Resfrio"></option>
+					<option value="Dengue"></option>
+					<option value="Twitter"></option>
+					<option value="Instagram"></option>
+					<option value="Facebook"></option>
+				</datalist>
+				<input type="text" name="busqueda" list="busqueda" id="buscador" >
+		
+				<button type="submit" id="botonlupa" >
+					<p><i class="fas fa-search"></i></p>
+				</button>
+		
+				</form>
+			</div>
+		
+		</div>
+	
+		
+	<nav class="menu" id="menu">
+ 
+    	<ul>
+           <li><a href="index.html">HOME</a></li>
+           <li><a href="enfermedades.html" >ENFERMEDADES</a></li>
+           <li><a href="vacunas.html">VACUNAC&Iacute;ON</a></li>
+           <li><a href="hospitales.html">HOSPITALES</a></li>
+           <li><a href="contacto.html" class="activo">CONTACTO</a></li>
+    	</ul>
+    </nav>
+		
+	<a class="desplegable"></a>
+	
+	</header>
+	
+	<main class="marginmain">
+	
+		<section class="consulta">
+			
+			<article class="columconsulta">
+			
+				<h2>CONTACTO</h2>
+				
+				<form id="contacto" action="" method="post" enctype="application/x-www-form-urlencoded" 
+				onsubmit="return validarContacto()" onkeyup="contarCaracteresRestantes()">
+				
+				<label for="nombreapellido">Nombre y Apellido</label> <br>
+				<input type="text" id="nombreapellido" name="nombreapellido"> <br>
+				
+				<label for="mail">Email</label> <br>
+				<input type="text" id="mail" name="mail" > <br>
+					
+				<label for="tel">Tel&eacute;fono</label> <br>
+				<input type="tel" id="tel" name="tel"> <br>
+				
+				<label for="consulta1">Consulta  <span id="caracteres">  0</span>/1000</label> <br>		
+				<textarea name="consulta1" id="consulta1" cols="30" rows="10" maxlength="1000" ></textarea>
+				
+				<div class="botonderecha">
+				<input type="submit" value="ENVIAR" id="enviarconsulta">		
+				</div>
+				<div id="mensaje" class="error"></div>						
+				</form>		
+				
+				
+			</article >
+			
+			
+				
+			
+			
+			<article class="columconsulta">
+				
+				<h2>DATOS DE CONTACTO</h2>
+				
+				<p>Direcci&oacute;n: Larsen 1811</p>
+				<p>Tel&eacute;fono: (011) 4485-8176</p>
+				<p>Celular: 15-5602-8627</p>
+				<p>Email: <a href="tomail:cuidemos.org@gmail.com">cuidemos.org@gmail.com</a></p> <br>
+				<p>
+				<a href="https://www.instagram.com/cuidemos.hospital" target="_blank" class="redes1"><i class="fab fa-instagram"></i></a>
+			    <a href="https://www.facebook.com/CuidemosOrg-102730938141411" target="_blank" class="redes1"><i class="fab fa-facebook"></i></a>
+			    <a href="" class="redes1"><i class="fab fa-twitter"></i></a></p>
+			 
+				
+			</article>
+			
+			
+		</section>
+			
+			
+		<section>
+			
+			<article class="ubicacion">
+				
+				<h2>UBICACI&Oacute;N</h2>
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.65556181014!2d-58.61046521692953!3d-34.71386656504317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc6856e12cef7%3A0xf7183115310fd6f7!2sJ.%20Larsen%201811%2C%20B1755FZE%20Rafael%20Castillo%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1589962388185!5m2!1ses!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				
+			</article>
+			
+		</section>		
+		
+	
+	
+		
+	<aside>
+		
+		
+	</aside>
+			
+	</main>
+	
+	<footer class="contenedor">
+	
+		<div class="columfooter">
+		
+			<h4>Datos del Grupo:</h4>
+			<p>Facundo Marin - 38.670.221</p>
+			<p>Facundo Vila  - 38.421.520</p>
+		</div>
+		
+		<div class="columfooter">
+		
+			<h4>Menu Inferior:</h4>
+			<p><a href="enfermedades.html">Enfermedades</a> </p>
+			<p><a href="vacunas.html">Vacunas</a> </p>
+			<p><a href="hospitales.html">Hospitales</a> </p>
+			<p><a href="contacto.html">Contacto</a> </p>
+			
+		</div>
+		
+		<div class="columfooter">
+		
+			<h4>Redes Sociales</h4>
+			<a href="https://www.instagram.com/cuidemos.hospital" target="_blank" ><i class="fab fa-instagram"></i></a>
+			<a href="https://www.facebook.com/CuidemosOrg-102730938141411" target="_blank"><i class="fab fa-facebook"></i></a>
+			<a href=""><i class="fab fa-twitter"></i></a>
+			
+		</div>
+		
+	</footer>
+
+	
+</body>
+</html>

@@ -1,0 +1,145 @@
+/*----------------------------HOSPITALES DISPONIBLES-----------------------------*/
+@import 'all.min.css';
+
+
+.marginmain {
+	
+	width: 80%;
+	margin: auto;
+}
+
+.hospitalesdisponibles iframe {
+	
+	
+	width: 100%;
+	height: 500px;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.hospital1{
+    background-color: rgb(186, 197, 235);
+    width: 70%;
+    height: 9em;
+    position: fixed;
+    z-index:2;
+    top:30px;
+	display:none;
+	border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius:8px 8px 8px 8px;
+    border: 2px solid #000000;
+	
+}
+.hospital2{
+    background-color: rgb(186, 197, 235);
+    width: 70%;
+    height: 9em;
+    position: fixed;
+    z-index:2;
+    top:30px;
+	display:none;
+	border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius:8px 8px 8px 8px;
+    border: 2px solid #000000;
+}
+.hospital3{
+    background-color: rgb(186, 197, 235);
+    width: 70%;
+    height: 9em;
+    position: fixed;
+    z-index:2;
+    top:30px;
+	display:none;
+	border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius:8px 8px 8px 8px;
+    border: 2px solid #000000;
+}
+
+ a{
+
+    cursor: pointer;
+}
+
+ a:hover{
+
+    
+    text-decoration: underline;
+}
+
+.cerrar a{
+    
+    color: #000;
+    text-decoration: none;
+    bottom: 0;
+    cursor: pointer;
+    margin-right: 5px;
+   
+}
+
+.cerrar a:hover{
+    
+    text-decoration: underline;
+
+}
+
+.cerrar{
+	float: right;
+}
+.estiloh2 h2{
+	text-align: center;
+}
+.estiloh2 li{
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+
+
+.hospital1 h3 {
+
+    background-color: #172940;
+    color: #FFF;
+    padding: 0.3em;
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+
+.hospital2 h3 {
+
+    background-color: #172940;
+    color: #FFF;
+    padding: 0.3em;
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+
+.hospital3 h3 {
+
+    background-color: #172940;
+    color: #FFF;
+    padding: 0.3em;
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+
+.hospital1 p, .hospital2 p, .hospital3 p{
+
+    margin-left: 0.5em;
+}
+
+@media screen and (min-width:47em){
+    .hospital1{
+   
+    width: 50%;
+  
+    }
+    .hospital2{
+    width: 50%;
+    }
+    .hospital3{
+    width: 50%;
+    }
+}

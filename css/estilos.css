@@ -1,0 +1,421 @@
+@import 'all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+header{
+	
+	background-color: #172940;
+	
+}
+
+.logo {
+	
+	color:#FFF;
+	font-size: 40px;
+}
+
+
+.buscador {
+
+	display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    border-bottom: 0.5px solid #fff;
+	
+}
+
+.itembuscador1{
+	
+	text-align: center;
+	width: calc(100%);
+	
+}
+
+.itembuscador2{
+	
+
+	width: calc(100%);
+	text-align: center;
+	margin-bottom: 0.4em;
+}
+
+
+input#buscador {
+	
+	width: 250px;
+	height: 30px;
+	
+}
+
+button#botonlupa {
+	
+	width:35px;
+	height: 34px;
+	color:#FFF;
+	font-size: 1em;
+	background-color: #065FA9;
+	border:0px;
+	/*cursor: pointer; para que aparezca la manito*/ 
+	
+}
+
+
+.menu ul {
+	background-color: #065FA9;
+	
+	
+}
+
+.menu li{
+	
+	list-style: none;
+	text-align: center;
+	
+}
+
+
+.menu a{
+	
+	color: #FFF;
+	display: block;
+	text-decoration: none;
+	padding: 1em;
+	
+	
+}
+
+.menu a:hover{
+	
+	background-color: #fff;
+	color: #065FA9;
+	
+}
+
+a.desplegable{
+
+	display: block;
+	width: 55px;
+	height: 55px;
+	background-color: #172940;
+	position: absolute;
+	top:15;
+	right: 0;
+	background-image: url(../img/hamburger.gif);
+	z-index: 10;
+	transition: 0.5;
+}
+
+a.desplegable:hover{
+	
+	background-color: #065FA9;
+	
+		
+}
+
+.menu{
+
+	display: none;
+
+}
+
+
+a.activo {
+	
+	background-color: #fff;
+	color: #065FA9;
+		
+}
+
+
+
+
+.marginmain {
+	
+	width: 80%;
+	margin: auto;
+}
+
+h1 {
+	
+	text-align: center;
+	margin-top: 1em;
+   	font-size: 1.5em;
+	
+}
+
+h2{
+	
+	text-align: center;
+}
+
+.listado{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	
+}
+
+.lista{
+	
+	width: calc(100%);
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+
+.lista h2 {
+	
+	text-align: center;
+	background-color: #065FA9;
+	color: #FFF;
+	width: 55%;
+	margin: auto;
+	font-size: 1.2em;
+	border-radius: 4px;
+}
+
+.lista a {
+	
+	text-decoration: none;
+	color: #000;
+	
+	
+}
+
+.imgvacuna{
+	
+	max-width: 40%;
+	
+}
+
+.imgvacuna1{
+	
+	max-width: 50%;
+	
+}
+
+
+
+
+.urgencias{
+	
+	font-size: 2em;
+	text-align: center;
+	background-color: rgba(188, 183, 183, 0.47);
+	margin-top: 2em;
+	margin-bottom: 1em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	
+	
+}
+
+.mayusculas{
+	
+	font-size: 1em;
+	text-align: center;
+	
+}
+
+footer{
+	
+	background-color: #172940;
+	color: #FFF;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-bottom: 35px;
+	padding-top: 35px;
+}	
+
+h4{
+	
+	margin-bottom: 1em;
+	
+}
+
+.contenedor {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	
+	
+}
+
+.columfooter {
+	
+	width: calc(100%);
+	padding-left: 0px;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+
+
+
+
+.columfooter a{
+
+	text-decoration: none;
+	color: #FFF;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	
+	
+}
+
+.columfooter a:hover {
+	
+	text-decoration: underline;
+	
+}
+
+.redes a {
+	
+	text-decoration: none;
+	color: #000;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	
+}
+
+.redes a:hover {
+	
+
+	color: #065FA9 !important;
+	
+}
+
+
+
+	
+@media screen and (min-width:47em){
+	
+	.menu ul{
+		display: flex;
+    	justify-content: center;
+	}
+	
+	.menu{
+		
+		display: block;
+	}
+
+	
+	a.desplegable{
+		
+		display: none;
+	}
+
+	.lista{
+
+		width: calc(50% - 1em);
+
+	}
+
+	.itembuscador1{
+		
+		text-align: center;
+		width: calc(30% - 2em);
+		
+	}
+	
+	.itembuscador2{
+		
+	
+		width: calc(70% - 2em);
+		text-align: left;
+		margin-bottom: 0;
+	}
+
+	.mayusculas{
+	
+		font-size: 1.5em;
+		
+	}
+
+	
+	
+}
+
+@media screen and (min-width: 60em){
+
+
+	input#buscador {
+		
+		width: 500px;
+		
+	}
+
+	.mayusculas{
+	
+		font-size: 2em;
+		
+	}
+
+
+}
+
+
+@media screen and (min-width:70em){
+
+	
+	
+	input#buscador {
+		
+		width: 700px;
+		height: 30px;
+	}
+	
+	.lista {
+
+		width: calc(33% - 1em);
+
+	}
+
+	.mayusculas{
+	
+		font-size: 3em;
+		text-align: left;
+	}
+
+	.urgencias{
+
+		font-size: 2.5em;
+		text-align: left;
+		display: flex;
+		flex-direction:row;
+		justify-content:space-around;
+		align-items: center;
+		flex-wrap:wrap;
+	}
+
+	.columfooter {
+	
+		width: calc(33% - 10em);
+		margin-bottom: 0;
+		padding-left: 70px;
+		text-align: left;
+		
+	}
+
+}
